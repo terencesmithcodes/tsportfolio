@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 
-const Home = () => {
+const Contact = () => {
   return (
     <>
       <NavBar />
@@ -9,4 +9,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Contact;
