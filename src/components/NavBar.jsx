@@ -4,8 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className="flex w-screen h-[80px] z-10 bg-white fixed  justify-between items-center p-8">
-      {/* <div>
-        <div className="flex items-center"> */}
       <h1 className="text-2xl font-bold mr-4 sm-:text-4xl">arrows</h1>
       <ul className="hidden md:flex">
         <li>
@@ -30,7 +28,6 @@ const NavBar = () => {
           </Link>
         </li>
       </ul>
-      {/* </div> */}
     </div>
   );
 };
